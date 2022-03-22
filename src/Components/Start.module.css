@@ -1,0 +1,24 @@
+@import url('../App.css');
+
+.startContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+}
+
+.title {
+    font-family: 'Sansita', sans-serif;
+    font-size: 3rem;
+    font-style: italic;
+    color: var(--color-pink);
+ 
+}
+
+.infoLine {
+    font-style: italic;
+    text-shadow: 1px 1px 0px black;
+    color: white;
+    font-weight: 200px;
+}

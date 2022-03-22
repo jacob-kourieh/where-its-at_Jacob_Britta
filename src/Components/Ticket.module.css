@@ -1,0 +1,72 @@
+@import url('../App.css');
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.container article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+.Ticketinfo {
+    font-style: italic;
+    color: white;
+    font-size: 1.5rem;
+ 
+}
+
+.tickets {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--color-pink);
+   border-radius: 4px;
+}
+
+.FirstPrice {
+    color: white;
+    text-shadow: 1px 2px 0px var(--color-pink);
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.ticketAmount {
+    display: flex;
+    flex-direction: row;
+}
+
+.ticketAmount span {
+    flex: 1 1 50%;
+    font-size: 2rem;
+    color: white;
+    padding: .5rem 3rem;
+    border-top: 1px solid var(--color-pink);
+}
+
+button {
+    padding: 0 1.5rem;
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--color-pink);
+    border-bottom: none;
+    color: var(--color-pink);
+    font-size: 2.5rem;
+}
+
+
+.LeftBtn {
+    border-left: none;
+}
+
+.RightBtn {
+    border-right: none;
+}
